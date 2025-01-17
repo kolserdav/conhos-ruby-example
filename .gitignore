@@ -1,0 +1,57 @@
+# Binary files
+*.o          # Object files
+*.so         # Shared object files
+*.dll        # Dynamic link library files
+*.exe        # Executable files
+*.app        # macOS application bundles
+
+# Log files
+log/*        # All log files in the log directory
+*.log        # Any log file
+
+# Temporary files and cache
+tmp/*        # Temporary files
+cache/       # Cache directories
+*.tmp        # Any temporary file
+
+# Dependency directories
+vendor/      # Bundler vendor directory
+node_modules/ # Node.js dependencies (if applicable)
+
+# Configuration files
+*.env        # Environment variable files
+*.env.local  # Local environment variable files
+*.env.*.local # Other local environment variable files
+
+# System files
+.DS_Store    # macOS Finder metadata
+Thumbs.db    # Windows thumbnail cache
+
+# Test files
+coverage/    # Test coverage reports
+spec/reports/ # RSpec reports
+test/reports/ # Test reports
+
+# Bundler files
+/.bundle/    # Bundler configuration directory
+Gemfile.lock # Lock file for gem dependencies
+
+# IDE files
+.idea/       # JetBrains IDE project files
+*.swp        # Vim swap files
+*.swo        # Vim swap files
+*.sublime-project # Sublime Text project files
+*.sublime-workspace # Sublime Text workspace files
+
+# RSpec files
+.rspec        # RSpec configuration file
+*.rspec       # RSpec configuration files
+
+# RubyMine files
+*.iml        # IntelliJ IDEA module files
+*.ipr        # IntelliJ IDEA project files
+*.iws        # IntelliJ IDEA workspace files
+
+# Ruby files
+*.gem        # Ruby gem files
+*.rbc        # Ruby bytecode files
